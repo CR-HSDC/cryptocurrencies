@@ -10,7 +10,8 @@ The purpose of this analysis is to assess the reviews from members of the paid A
 The results for each model are as follows:
 
 
-**RandomOverSampler:**
+###RandomOverSampler:
+
 -Balanced Accuracy Score: 	0.63
 -Precision Score: 			0.99
 -Recall Score: 				0.69
