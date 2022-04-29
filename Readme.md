@@ -3,29 +3,7 @@
 ### **Overview of the LendingClub Dataset Analysis**
 The purpose of this analysis is to assess the reviews from members of the paid Amazon Vine review program. From the available datasets, the Video Games dataset was assessed.
 
-The findings of this analysis are discussed below.
-
-Del1: RandomOverSampler (Oversample), SMOTE (Oversample), ClusteCentroids (Undersample)
-
-Del2: SMOTEENN
-
-Del3: BalancedRandomForrestClassifier (Ensemble), EasyEnsembleClassifier.
-
 ## Results
-
-
-![Figure 2](https://github.com/CR-HSDC/Amazon_Vine_Analysis/blob/main/Resources/Figure2.png)
-**_Figure 2_:** non-Vine 5-star reviews percentage.
-
-**How many Vine reviews and non-Vine reviews were there?**
-Per ***Figure 1***, there were 94 Vine reviews and 40,471 non-Vine reviews, for the video games dataset.
-
-**How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars**
-Per  ***Figure 1***, there were 48 5-Star Vine reviews and 15,663 non-Vine 5-Star reviews, for the video games dataset.
-
-**What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?**
-Per  ***Figure 1*** and **Figure 2**, 51.1% percent of Vine reviews were 5-star rating and 38.7% percent of non-Vine reviews were 5-star rating, for the video games dataset.
-
 
 #Results
 
@@ -38,6 +16,7 @@ The results for each model are as follows:
 	Recall Score: 				0.69
 
 ![Figure 1](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig1_RandomOverSampler.png)
+
 **_Figure 1_:** RandomOverSampler Summary Statistics
 
 	
@@ -47,6 +26,7 @@ The results for each model are as follows:
 	Recall Score:				0.66
 	
 ![Figure 2](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig2_SMOTE.png)
+
 **_Figure 2_:** SMOTE Summary Statistics
 	
 ###ClusterCentroids:
@@ -55,6 +35,7 @@ The results for each model are as follows:
 	Recall Score:				0.45
 
 ![Figure 3](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig3_ClusterCentroids.png)
+
 **_Figure 3_:** ClusterCentroids Summary Statistics
 
 
@@ -64,6 +45,7 @@ The results for each model are as follows:
 	Recall Score:				0.57
 
 ![Figure 4](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig4_SMOTEENN.png)
+
 **_Figure 4_:** SMOTEENN Summary Statistics
 
 ###BalancedRandomForrestClassifier:
@@ -72,6 +54,7 @@ The results for each model are as follows:
 	Recall Score:				0.91
 
 ![Figure 5](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig5_BalancedRandomForestClassifier.png)
+
 **_Figure 5_:** BalancedRandomForrestClassifier Summary Statistics
 
 ###EasyEnsembleClassifier:
@@ -80,6 +63,7 @@ The results for each model are as follows:
 	Recall Score:				0.94
 
 ![Figure 6](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig6_EasyEnsembleClassifer.png)
+
 **_Figure 6_:** EasyEnsembleClassifier Summary Statistics
 
 
