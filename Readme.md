@@ -1,7 +1,16 @@
 # LendingClub Dataset Analysis
 
 ### **Overview of the LendingClub Dataset Analysis**
-The purpose of this analysis is to assess the reviews from members of the paid Amazon Vine review program. From the available datasets, the Video Games dataset was assessed.
+The purpose of this analysis is to assess the accuracy of loan default precications using a variety of machine learning models. 
+The accuracy and precision was assessed for the following models:
+
+### RandomOverSampler
+### SMOTE
+### ClusterCentroids
+### SMOTEENN
+### BalancedRandomForrestClassifier
+### EasyEnsembleClassifier
+
 
 ## Results
 
