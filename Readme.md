@@ -21,9 +21,9 @@ The results for each model are as follows:
 
 ### RandomOverSampler:
 
-	* Balanced Accuracy Score: 	0.63
-	* Precision Score: 		0.99
-	* Recall Score: 		0.69
+* Balanced Accuracy Score: 	0.63
+* Precision Score: 		0.99
+* Recall Score: 		0.69
 
 ![Figure 1](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig1_RandomOverSampler.png)
 
