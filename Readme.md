@@ -4,12 +4,12 @@
 The purpose of this analysis is to assess the accuracy of loan default precications using a variety of machine learning models. 
 The accuracy and precision was assessed for the following models:
 
-### RandomOverSampler
-### SMOTE
-### ClusterCentroids
-### SMOTEENN
-### BalancedRandomForrestClassifier
-### EasyEnsembleClassifier
+* RandomOverSampler
+* SMOTE
+* ClusterCentroids
+* SMOTEENN
+* BalancedRandomForrestClassifier
+* EasyEnsembleClassifier
 
 
 ## Results
