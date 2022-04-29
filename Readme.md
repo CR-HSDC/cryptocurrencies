@@ -5,12 +5,11 @@ The purpose of this analysis is to assess the reviews from members of the paid A
 
 ## Results
 
-#Results
 
 The results for each model are as follows:
 
 
-###RandomOverSampler:
+### RandomOverSampler:
 
 -Balanced Accuracy Score: 	0.63
 -Precision Score: 			0.99
@@ -21,7 +20,7 @@ The results for each model are as follows:
 **_Figure 1_:** RandomOverSampler Summary Statistics
 
 	
-###SMOTE:
+### SMOTE:
 	Balanced Accuracy Score: 	0.66
 	Precision Score:			0.99
 	Recall Score:				0.66
