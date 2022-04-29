@@ -16,6 +16,7 @@ The results for each model are as follows:
 	Recall Score: 			0.69
 
 ![Figure 1](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig1_RandomOverSampler.png)
+
 **_Figure 1_:** RandomOverSampler Summary Statistics
 
 	
@@ -25,6 +26,7 @@ The results for each model are as follows:
 	Recall Score:			0.66
 	
 ![Figure 2](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig2_SMOTE.png)
+
 **_Figure 2_:** SMOTE Summary Statistics
 	
 ### ClusterCentroids:
@@ -63,7 +65,6 @@ The results for each model are as follows:
 ![Figure 6](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig6_EasyEnsembleClassifer.png)
 
 **_Figure 6_:** EasyEnsembleClassifier Summary Statistics
-
 
 
 ## Summary 
