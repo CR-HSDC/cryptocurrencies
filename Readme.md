@@ -80,7 +80,7 @@ The results for each model are as follows:
 ## Summary 
 
 ![Figure 7](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig7_Summary.png)
-**_Figure 7_:** EasyEnsembleClassifier Summary Statistics
+**_Figure 7_:** Model Summary Statistics
 
 ***Figure 7*** provides a summary of results for all models used in this summary.
 
