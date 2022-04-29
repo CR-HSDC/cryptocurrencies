@@ -1,7 +1,8 @@
 # LendingClub Dataset Analysis
 
 ### **Overview of the LendingClub Dataset Analysis**
-The purpose of this analysis is to assess the accuracy of loan default precications using a variety of machine learning models. 
+The purpose of this analysis is to assess the accuracy of loan default predictions, using the LendingClub Dataset, using a variety of machine learning models. 
+
 The accuracy and precision was assessed for the following models:
 
 * RandomOverSampler
@@ -20,9 +21,9 @@ The results for each model are as follows:
 
 ### RandomOverSampler:
 
-	Balanced Accuracy Score: 	0.63
-	Precision Score: 		0.99
-	Recall Score: 			0.69
+	* Balanced Accuracy Score: 	0.63
+	* Precision Score: 		0.99
+	* Recall Score: 		0.69
 
 ![Figure 1](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig1_RandomOverSampler.png)
 
