@@ -79,19 +79,13 @@ The results for each model are as follows:
 
 ## Summary 
 
-A positivity bias is observed for the Vine reviews. There is a difference of 12.4% between the Vine 5-Star reviews (51.1%) and non-Vine 5-Star reviews (38.7%), this difference is statistcally significant. 
+![Figure 7](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig7_Summary.png)
+**_Figure 7_:** EasyEnsembleClassifier Summary Statistics
 
-An additional analysis to support the claim of positivity bias, could be to analyze the scoring trends in general. Starting with the overall average score for both categories, it could be assessed if the overall score is higher for the Paid reviews. Additionally, the standard deviation for both averages could be assessed to see if there is lesser variability in the Paid reviews group, thus a higher inclincation towards positive reviews, this could be indicated by a lower standard deviation than for the non-paid group.
+***Figure 7*** provides a summary of results for all models used in this summary.
 
-Additionally, statistics could be assessed at each discrete score point (e.g. 1 star, 1.5 star etc..) to examine if there bias is any particular score rating.
+Of interest to this analysis, is accurately predicting High Risk lending. High precision should be expected for Low Risk, since these compromise the vast majority of the dataset. 
 
+Of the assessed models, the EasyEnsembleClassifier had the highest sensitivity for High Risk scores at 0.91, however the precision remained low at 0.07, indicating a high number of false positives. The high sensitity and low precision are reflected in the F1 score of 0.14 for the High Risk category.
 
-
-
-
-
-
-
-
-
-
+Implentation of this algorithm to assess lending risk, should be comenserate with the level of risk. Perhaps for higher value lending (e.g. $10 million+), this algorithm coould be useful, to determine if further investigation is required into a borrowers credit worthiness. For regular lending, however, the number of falses positives may be burdersome and encumber potential revenue opportunties. 
