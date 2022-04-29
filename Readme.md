@@ -40,9 +40,9 @@ The results for each model are as follows:
 **_Figure 2_:** SMOTE Summary Statistics
 	
 ### ClusterCentroids:
-	Balanced Accuracy Score: 	0.53
-	Precision Score:		0.99
-	Recall Score:			0.45
+* Balanced Accuracy Score: 	0.53
+* Precision Score:		0.99
+* Recall Score:			0.45
 
 ![Figure 3](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig3_ClusterCentroids.png)
 
@@ -50,27 +50,27 @@ The results for each model are as follows:
 
 
 ### SMOTEENN
-	Balanced Accuracy Score: 	0.64
-	Precision Score: 		0.99
-	Recall Score:			0.57
+* Balanced Accuracy Score: 	0.64	
+* Precision Score: 		0.99
+* Recall Score:			0.57
 
 ![Figure 4](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig4_SMOTEENN.png)
 
 **_Figure 4_:** SMOTEENN Summary Statistics
 
 ### BalancedRandomForrestClassifier:
-	Balanced Accuracy Score: 	0.79
-	Precision Score:		0.99
-	Recall Score:			0.91
+* Balanced Accuracy Score: 	0.79
+* Precision Score:		0.99
+* Recall Score:			0.91
 
 ![Figure 5](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig5_BalancedRandomForestClassifier.png)
 
 **_Figure 5_:** BalancedRandomForrestClassifier Summary Statistics
 
 ### EasyEnsembleClassifier:
-	Balanced Accuracy Score: 	0.93
-	Precision Score:		0.99
-	Recall Score:			0.94
+* Balanced Accuracy Score: 	0.93
+* Precision Score:		0.99
+* Recall Score:			0.94
 
 ![Figure 6](https://github.com/CR-HSDC/cryptocurrencies/blob/main/resources/Fig6_EasyEnsembleClassifer.png)
 
