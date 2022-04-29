@@ -1,6 +1,6 @@
-# LendingClub Dataset Analysis
+# Credit Risk Analysis
 
-### **Overview of the LendingClub Dataset Analysis**
+### **Credit Risk Analysis**
 The purpose of this analysis is to assess the accuracy of loan default predictions, using the LendingClub Dataset, using a variety of machine learning models. 
 
 The accuracy and precision was assessed for the following models:
